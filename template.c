@@ -1,3 +1,4 @@
+// Template file with no standard compiler error 
 #include <stdio.h>
 #include <stdlib.h>
 
