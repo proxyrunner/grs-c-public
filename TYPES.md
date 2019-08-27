@@ -19,7 +19,7 @@ Therefore many C library functions like malloc, memcpy and strlen declare their 
 
 size_t or any unsigned type might be seen used as loop variable as loop variables are typically greater than or equal to 0.
 
-    ```C
+    ```c
     // Declaration of various standard library functions. 
     
     // Here argument of 'n' refers to maximum blocks that can be 
@@ -37,7 +37,7 @@ size_t or any unsigned type might be seen used as loop variable as loop variable
 
 Note: When we use a size_t object, we have to make sure that in all the contexts it is used, including arithmetic, we want only non-negative values. For instance, the following program would definitely give the unexpected result:
 
-    ```C
+    ```c
     // C program to demonstrate that size_t or 
     // any unsigned int type should be used  
     // carefully when used in a loop. 
@@ -59,7 +59,7 @@ Note: When we use a size_t object, we have to make sure that in all the contexts
         for (size_t n = N-1; n >= 0; --n) 
             printf("%d ", a[n]); 
     } 
-    ```C
+    ```
 
 > Output
 > Infinite loop and then segmentation fauilt
