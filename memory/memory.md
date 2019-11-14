@@ -4,9 +4,9 @@
 #include <stdio.h>
 
 int main(void){
-//printf("%zu\n", sizeof(unsigned char c;
-//printf("%zu\n", sizeof(short d;
-//printf("%zu\n", sizeof(short int e;
+printf("%zu\n", sizeof(unsigned char));
+printf("%zu\n", sizeof(short d));
+printf("%zu\n", sizeof(short int e));
 printf("%zu\n", sizeof(signed short));
 printf("%zu\n", sizeof(signed short int));
 printf("%zu\n", sizeof(unsigned short));
@@ -38,7 +38,8 @@ printf("%zu\n", sizeof(long double));
 
 ```
 1
-1
+2
+2
 2
 2
 2
